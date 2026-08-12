@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Query about a specific GWAS submission
+    url: mailto:gwas-subs@ebi.ac.uk
+    about: Contact us about an existing or ongoing submission.
+
+  - name: General GWAS information or questions
+    url: mailto:gwas-info@ebi.ac.uk
+    about: Contact us with general questions about GWAS.
+
+  - name: GWAS documentation
+    url: https://www.ebi.ac.uk/gwas/docs
+    about: Check our documentation before getting in touch.
