@@ -10,11 +10,9 @@ body:
       value: |
         Thanks for reporting a bug.
 
-        For general questions or feedback, please contact
-        **gwas-info@ebi.ac.uk** instead.
+        For general questions or feedback, please contact **gwas-info@ebi.ac.uk** instead.
 
-        For questions about a specific submission, please contact
-        **gwas-subs@ebi.ac.uk** instead.
+        For questions about a specific submission, please contact **gwas-subs@ebi.ac.uk** instead.
 
   - type: textarea
     id: problem
