@@ -1,0 +1,49 @@
+name: Bug report
+description: Report something that is broken or not working as expected
+title: "[Bug]: "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug.
+
+        For general questions or feedback, please contact
+        **gwas-info@ebi.ac.uk** instead.
+
+        For questions about a specific submission, please contact
+        **gwas-subs@ebi.ac.uk** instead.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen instead.
+      placeholder: |
+        What did you try?
+        What happened?
+        What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Please provide the steps needed to reproduce the problem.
+      placeholder: |
+        1. Go to...
+        2. Click...
+        3. See...
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include relevant links, error messages, screenshots, or other useful information.
+    validations:
+      required: false
